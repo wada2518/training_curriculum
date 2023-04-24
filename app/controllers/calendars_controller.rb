@@ -5,7 +5,6 @@ class CalendarsController < ApplicationController
     get_week
 
     @plan = Plan.new
-    getWeek
   end
 
   # 予定の保存
